@@ -146,7 +146,7 @@ ul.nav-ul li a:hover {
 .about-us .button a {
     text-decoration: none;
     border-radius: 5px;
-    font-weight: 400;
+    font-weight: 700;
     padding: 10px 20px;
     background: #005959;
     margin-right: 10px;
@@ -344,13 +344,8 @@ body{
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.contact-us img{
-    position: absolute;
-    width: 1000px;
 
-    bottom: 0px;
-    left: 0px;
-}
+  
 
 .contact-inner-container{
     width: 80%;
@@ -398,6 +393,7 @@ body{
     /* border: 3px solid #77acae; */
     border: none;
 
+
 }
 
 .contact-message textarea{
@@ -415,7 +411,46 @@ body{
     outline: none;
     background: #77acae;
     color: #fff;
-    font-weight: 400;
+    font-weight: 700;
     border: none;
+    
+}
+.contact-message input[type="submit"]:hover{
+    background:#fff ;
+    color: #77acae;
+}
+/* ------------------book-online-------------------------- */
+.book-online{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: 707px;
+    background: linear-gradient(to bottom right,rgba(0, 0, 0, 0.89),rgba(0, 0, 0, 0.438)),url(./image/panoramic-shot-of-smiling-physiotherapist-with-diagnosis-near-patient-in-hospital.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 152px;
+
+}
+.book-online-text{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+}
+.book-online-text a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    background: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: #77acae;
+}
+.book-online-text a:hover{
+    background: #77acae;
+    color: #fff;
 }
 
