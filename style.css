@@ -453,4 +453,60 @@ body{
     background: #77acae;
     color: #fff;
 }
+/*---------------------- blog-post ---------------*/
+.blog-post{
+    left: 0px;
+    width: 100%;
+    height: 600px;
+   
+    position: relative;
+    top: 707px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.blog-post h3{
+    font-size: 24px;
+    color: #77acae;
+    font-weight: 600;
 
+}
+.blog-post h1{
+    
+    color:#005959;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.blog-post-inner-container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 45px;
+
+}
+.blog-post-div img {
+    width: 170px;
+    height: 140px;
+    border-radius: 5px;
+  
+  
+
+}
+.blog-post-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.blog-post-text{
+
+    text-align: left;
+   
+}
+.blog-post-text a{
+    display: block;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #005959;
+}
