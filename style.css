@@ -37,11 +37,14 @@ ul.nav-ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #fff;
 }
 
 ul.nav-ul li {
-    list-style: none;
-    /* margin-right: 16px; */
+    list-style: none ;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
 
 
 }
@@ -55,9 +58,40 @@ ul.nav-ul li a {
     text-align: left;
 }
 
-ul.nav-ul li a:hover {
+ul.nav-ul li:hover {
     color: #005959;
+   
+    background: #77acae;
+   
 }
+
+ul.nav-ul li ul li a{
+    color: #fff;
+    
+}
+ul.nav-ul li ul {
+    background:#005959;
+    position: absolute;
+    display: none;
+    top: 40px;
+    left: -3px;
+    width: 100px;
+   
+    border-radius: 8px;
+    outline: 1px solid #77acae;
+    text-align: center;
+   
+}
+ul.nav-ul li:hover ul{
+    display: block;
+   
+}
+ul.nav-ul li:hover ul li {
+    display: block;
+    border-radius: 0px;
+
+}
+
 
 .phone-number .fa-phone-alt {
     color: #fff;
@@ -94,6 +128,9 @@ ul.nav-ul li a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 25px;
+    background: url(./image/Ellipse-5.png);
+    background-repeat: no-repeat;
+    background-size: 100px 250px;
 }
 .about-us{
     margin-left: 20%;
@@ -411,6 +448,10 @@ ul.nav-ul li a:hover {
     text-align: left;
    
 }
+.blog-post-text h4{
+    margin-bottom: 20px;
+}
+
 .blog-post-text a{
     display: block;
     margin-top: 20px;
@@ -422,7 +463,6 @@ footer{
     width: 100%;
     background: #005959;
     padding-top: 50px;
-    padding-bottom: 50px;
 }
 footer hr{
     margin: auto;
@@ -493,5 +533,11 @@ width: 100px;
 .copy-right h6{
     color: #fff;
 }
-/* -------------Moblie version css-------- */
+/* -------------Moblie version css for index.html-------- */
+
+
+
+/* ================================About us page css=====================
+========================================================================== */
+
 
