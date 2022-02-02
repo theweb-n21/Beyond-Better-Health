@@ -26,6 +26,10 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+.fa-bars{
+    font-size: 36px;
+    display: none;
+}
 
 .logo img {
     width: 100px;
@@ -72,23 +76,26 @@ ul.nav-ul li ul li a{
 ul.nav-ul li ul {
     background:#005959;
     position: absolute;
-    display: none;
-    top: 40px;
+    top: 42px;
     left: -3px;
     width: 100px;
-   
+    height: 0px;
+    overflow: hidden;
     border-radius: 8px;
-    outline: 1px solid #77acae;
+   
     text-align: center;
+    transition-property: all;
+    transition-duration: 1s;
    
 }
-ul.nav-ul li:hover ul{
-    display: block;
-   
+ul.nav-ul li:hover ul{  
+    height: 160px;
+    outline: 1px solid #77acae;
 }
 ul.nav-ul li:hover ul li {
     display: block;
     border-radius: 0px;
+    outline: 1px solid #77acae;
 
 }
 
@@ -107,6 +114,9 @@ ul.nav-ul li:hover ul li {
     text-decoration: none;
     color: #666;
     font-weight: 600;
+}
+.phone-number .link-2{
+    display: none;
 }
 
 /* ---------------main-------- */
@@ -160,6 +170,8 @@ ul.nav-ul li:hover ul li {
     padding: 10px 15px;
     border-radius: 5px;
     margin-right: 20px;
+    transition-property: all;
+    transition-duration: 1.5s;
 }
 .about-us a:hover{
     color: #005959;
@@ -232,7 +244,7 @@ ul.nav-ul li:hover ul li {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+   
 }
 .why-choose-us-photo {
     width: 500px;
@@ -244,6 +256,7 @@ ul.nav-ul li:hover ul li {
     width: 100%;
     border-radius: 8px;
     height: 603px;
+    object-fit: cover;
 }
 .why-choose-us-tex{
     flex-basis: 55%;
@@ -434,6 +447,7 @@ ul.nav-ul li:hover ul li {
     width: 170px;
     height: 140px;
     border-radius: 5px;
+    object-fit: cover;
   
   
 
@@ -540,4 +554,128 @@ width: 100px;
 /* ================================About us page css=====================
 ========================================================================== */
 
+
+/* <!---------------- about page baner---------------------------- --> */
+.about-page-baner{
+    width: 100%;
+    height: 300px;
+}
+.about-page-baner-innercontainer{
+    width: 100%;
+    height: 300px;
+    position: relative;
+  
+}
+.about-page-baner-innercontainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px -166px;
+    
+}
+.about-page-baner-innercontainer::before{
+    content: '';
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(150deg,rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.50));
+    position: absolute;
+
+}
+.about-page-baner-innercontainer h1{
+    position: absolute;
+    color: #fff;
+    top: 26%;
+    left: 43%;
+}
+/* <!-- --------------- why-choose-us---------> */
+.paddin-reduce{
+    padding-top: 0px;
+}
+
+/* <!----------- Feel The Body Adjustment----------- --> */
+
+.feel{
+    width: 100%;
+    height: 580px;
+    padding-bottom: 100px;
+    
+}
+/* .feel-innercontainer-text{
+    width: 100%;
+    height: 480px;
+    background:linear-gradient(145deg,rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),url(./image/physiotherapist-massaging-back-of-man-lying-on-massage-table-in-hospital.jpeg);
+    background-position: 0px 10px;
+} */
+.feel-innercontainer img{
+    width: 100%;
+
+    object-fit: cover;
+    object-position: 0px -200px;
+}
+.feel-innercontainer{
+    width: 100%;
+    position: relative;
+}
+.feel-innercontainer::before{
+    content: '';
+    width: 100%;
+    height: 480px;
+    background: linear-gradient(145deg,rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55));
+    position: absolute;
+}
+.feel-innercontainer-text{
+    color: #fff;
+    width: 50%;
+    left: 29%;
+    position: absolute;
+    top: 83px;
+    text-align: center;
+    line-height: 36px;
+}
+.professional-staff{
+    width: 60%;
+    background: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 382px;
+    left: 20%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgb(128 128 128 / 49%);
+}
+.professional-staff i{
+    font-size: 30px;
+    color: #77acae;
+    margin-bottom: 10px;
+}
+.professional-staff h4{
+    color: #005959;
+    font-weight: 800;
+    
+}
+/* <!----------------------- Our Therapist------------------- --> */
+
+@media (max-width:425px) {
+   
+.nav-div{
+    display: none;
+}
+.phone-number .link-2{
+    display: block;
+}
+.phone-number .link-1{
+    display: none;
+}
+.fa-bars{
+    display: block;
+}
+
+}
 
