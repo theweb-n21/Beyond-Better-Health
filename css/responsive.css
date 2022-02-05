@@ -1,0 +1,266 @@
+/* mobile css for  */
+@media (max-width: 500px) {
+    .container>i {
+        display: block;
+    }
+
+    .link-1 {
+        display: none;
+    }
+
+    .phone-number .link-2 {
+        display: block;
+    }
+
+    .logo {
+
+        margin-left: 21%;
+    }
+
+    .logo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    ul.nav-ul {
+        display: none;
+    }
+
+    .about-us-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 45px;
+        padding-bottom: 45px;
+
+    }
+
+    .photo-1 {
+        margin-top: 40px;
+    }
+
+    .photo-1-1 {
+        display: none;
+    }
+
+    .photo-1-2 {
+        margin: auto;
+        width: 80%;
+    }
+
+    .about-us {
+        margin-right: 20%;
+    }
+
+    .photo-1-2 img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .blog-post-inner-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-row-gap: 0px;
+    }
+
+    .blog-post-div {
+        margin: 10px;
+        box-shadow: 0px 0px 10px grey;
+        padding: 20px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
+
+    .blog-post-text a {
+        text-align: right;
+    }
+
+    .footer-inner-container {
+        font-size: 13px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-inner-container>div {
+        margin-bottom: 25px;
+    }
+
+    .blog-post {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .contact-us {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .why-choose-us {
+
+        padding-bottom: 45px;
+        padding-top: 0px;
+    }
+
+    .contact-inner-container {
+
+        flex-direction: column;
+    }
+
+    .why-choose-us-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-choose-us-container>div {
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    .button {
+        display: flex;
+        width: 255px;
+    }
+
+    .about-us a {
+        font-weight: 400;
+        padding: 5px 10px;
+        display: block;
+        text-align: center;
+    }
+
+    .services-inner-container {
+
+        display: block;
+    }
+
+    .services-inner-container>div {
+        margin-bottom: 25px;
+    }
+
+    .why-choose-us-tex-card {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-choose-us-tex-card img {
+        margin-bottom: 25px;
+    }
+    .about-us p {
+        margin-bottom: 15px;
+        line-height: 25px;
+    }
+    .feel-innercontainer {
+        height: 75vh;
+        
+    }
+    .professional-staff>div>i {
+        font-size: 25px;
+    }
+    .professional-staff>div>h4 {
+        font-size: 16px;
+    }
+    .professional-staff>div>p {
+        font-size: 10px;
+    }
+    .our-therapist {
+        height: auto;
+        line-height: 25px;
+    }
+    .our-therapist-img {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .about-page-banner {
+        background-size: cover;
+        background-position: center;
+    }
+    .why-choose-us-photo {
+        display: none;
+    }
+    .feel {
+     padding-bottom: 0px;
+    }
+}
+
+/*---------------------------- tablet css for------------- */
+
+@media (max-width:991px) {
+
+    .link-1 {
+        display: none;
+
+    }
+
+    .phone-number .link-2 {
+        display: block;
+    }
+
+    .about-us-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 45px;
+        padding-bottom: 45px;
+
+    }
+
+    .photo-1-1 {
+        display: none;
+    }
+
+    .photo-1-2 {
+        margin: auto;
+        width: 100%;
+        margin-top: 31px;
+    }
+
+    .photo-1-2 img {
+        width: 100%;
+        border-radius: 0px;
+        object-fit: cover;
+    }
+
+    .blog-post-div {
+        display: block;
+        margin: 20px;
+        text-align: center;
+    }
+    .blog-post-div img {
+        width: 250px;
+    }
+    .blog-post-inner-container {
+        width: 80%;
+        grid-row-gap: 16px;
+    }
+    .our-therapist {
+        line-height: 25px;
+    }
+    .our-therapist-img {
+        width: 95%;
+    }
+    .our-therapist-img>div>div {
+        padding: 5px;
+        border-radius: 4px;
+        margin-bottom: 15px;
+    }
+    .about-page-banner {
+        background-size: cover;
+        background-position: center;
+    }
+    
+    footer {
+       
+        margin-top: 100px;
+    }
+
+}
