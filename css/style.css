@@ -26,7 +26,8 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-.fa-bars{
+
+.fa-bars {
     font-size: 36px;
     display: none;
 }
@@ -45,7 +46,7 @@ ul.nav-ul {
 }
 
 ul.nav-ul li {
-    list-style: none ;
+    list-style: none;
     padding: 10px;
     border-radius: 5px;
     position: relative;
@@ -64,17 +65,18 @@ ul.nav-ul li a {
 
 ul.nav-ul li:hover {
     color: #005959;
-   
+
     background: #77acae;
-   
+
 }
 
-ul.nav-ul li ul li a{
+ul.nav-ul li ul li a {
     color: #fff;
-    
+
 }
+
 ul.nav-ul li ul {
-    background:#005959;
+    background: #005959;
     position: absolute;
     top: 42px;
     left: -3px;
@@ -82,16 +84,18 @@ ul.nav-ul li ul {
     height: 0px;
     overflow: hidden;
     border-radius: 8px;
-   
+
     text-align: center;
     transition-property: all;
     transition-duration: 1s;
-   
+
 }
-ul.nav-ul li:hover ul{  
+
+ul.nav-ul li:hover ul {
     height: 160px;
     outline: 1px solid #77acae;
 }
+
 ul.nav-ul li:hover ul li {
     display: block;
     border-radius: 0px;
@@ -115,7 +119,8 @@ ul.nav-ul li:hover ul li {
     color: #666;
     font-weight: 600;
 }
-.phone-number .link-2{
+
+.phone-number .link-2 {
     display: none;
 }
 
@@ -130,6 +135,7 @@ ul.nav-ul li:hover ul li {
 .banner img {
     width: 100%;
 }
+
 /* ----------------about-us--------- */
 .about-us-container {
     width: 100%;
@@ -142,27 +148,32 @@ ul.nav-ul li:hover ul li {
     background-repeat: no-repeat;
     background-size: 100px 250px;
 }
-.about-us{
+
+.about-us {
     margin-left: 20%;
 }
-.about-us h3{
+
+.about-us h3 {
     margin-bottom: 20px;
     color: #77acae;
     font-size: 24px;
     font-weight: 600;
 
 }
-.about-us h1{
+
+.about-us h1 {
     margin-bottom: 20px;
-    color: #005959; 
+    color: #005959;
     font-weight: 700;
 
 }
-.about-us p{
+
+.about-us p {
     margin-bottom: 20px;
     line-height: 30px;
 }
-.about-us a{
+
+.about-us a {
     text-decoration: none;
     color: #fff;
     font-weight: 600;
@@ -173,7 +184,8 @@ ul.nav-ul li:hover ul li {
     transition-property: all;
     transition-duration: 1.5s;
 }
-.about-us a:hover{
+
+.about-us a:hover {
     color: #005959;
     background: #77acae;
 }
@@ -183,7 +195,7 @@ ul.nav-ul li:hover ul li {
     width: 260px;
     height: 191px;
     border-radius: 8px;
-   
+
 }
 
 .photo-1-2 img {
@@ -191,20 +203,23 @@ ul.nav-ul li:hover ul li {
     height: 315px;
     border-radius: 8px;
 }
+
 /* ----------------services------------ */
-.services{
+.services {
     width: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
     background: #005959;
 }
-.services h1{
+
+.services h1 {
     color: #fff;
     font-weight: 700;
     margin-bottom: 20px;
     margin-left: 10%;
 }
-.services h3{
+
+.services h3 {
     margin-bottom: 20px;
     color: #77acae;
     font-size: 24px;
@@ -212,74 +227,88 @@ ul.nav-ul li:hover ul li {
     margin-left: 10%;
 
 }
-.services-inner-container{
+
+.services-inner-container {
     width: 80%;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 20px;
 }
-.services-inner-div{
+
+.services-inner-div {
     color: #fff;
     line-height: 30px;
 }
-.services-inner-div a{
+
+.services-inner-div a {
     color: #fff;
     font-weight: 700;
 }
-.services-inner-div i{
+
+.services-inner-div i {
     font-size: 30px;
 }
-.services-inner-div a i{
+
+.services-inner-div a i {
     font-size: 16px;
 }
+
 /* <!-- --------------- why-choose-us---------> */
 .why-choose-us {
     width: 100%;
     padding-bottom: 100px;
     padding-top: 100px;
 }
+
 .why-choose-us-container {
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-   
+
 }
+
 .why-choose-us-photo {
     width: 500px;
     display: inline-block;
     flex-basis: 40%;
-    
+
 }
-.why-choose-us-photo img{
+
+.why-choose-us-photo img {
     width: 100%;
     border-radius: 8px;
     height: 603px;
     object-fit: cover;
 }
-.why-choose-us-tex{
+
+.why-choose-us-tex {
     flex-basis: 55%;
 }
-.why-choose-us-tex h3{
+
+.why-choose-us-tex h3 {
     margin-bottom: 20px;
     color: #77acae;
     font-size: 24px;
     font-weight: 600;
-    
+
 }
-.why-choose-us-tex h1{
+
+.why-choose-us-tex h1 {
     margin-bottom: 20px;
-    color: #005959; 
+    color: #005959;
     font-weight: 700;
 }
-.why-choose-us-tex-card{
+
+.why-choose-us-tex-card {
     padding: 20px;
     box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.493);
     border-radius: 5px;
     margin-bottom: 20px;
 }
-.why-choose-us-tex-card h4{
+
+.why-choose-us-tex-card h4 {
     color: #005959;
     font-weight: 700;
     font-size: 20px;
@@ -287,8 +316,9 @@ ul.nav-ul li:hover ul li {
     display: inline-block;
 
 }
-.why-choose-us-tex-card img{
-    
+
+.why-choose-us-tex-card img {
+
     width: 40px;
     padding: 5px;
     background: #77acae;
@@ -297,57 +327,67 @@ ul.nav-ul li:hover ul li {
     top: 13px;
     margin-right: 10px;
 }
-.why-choose-us-tex-card p{
+
+.why-choose-us-tex-card p {
     color: #666666;
 }
+
 /* ----------contact-us ---------*/
 .contact-us {
     width: 100%;
     background: #005959;
     padding-top: 100px;
     padding-bottom: 100px;
-   
+
 }
 
-  
 
-.contact-inner-container{
+
+.contact-inner-container {
     width: 80%;
     /* border: 1px solid red; */
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
-.contact-tex{
+
+.contact-tex {
     flex-basis: 45%;
 }
-.contact-tex h3{
+
+.contact-tex h3 {
     font-size: 24px;
     color: #77acae;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.contact-tex h1{
-   
+
+.contact-tex h1 {
+
     color: #fff;
     font-weight: 700;
     margin-bottom: 20px;
 }
-.contact-tex p{
+
+.contact-tex p {
     color: #fff;
     line-height: 30px;
 
 }
-.contact-message{
+
+.contact-message {
     flex-basis: 45%;
 }
-.contact-message h4{
+
+.contact-message h4 {
     color: #fff;
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 20px;
 }
-.contact-message input[type="text"] ,input[type="email"]{
+
+.contact-message input[type="text"],
+input[type="email"] {
     width: 80%;
     padding: 5px;
     padding-left: 10px;
@@ -360,7 +400,7 @@ ul.nav-ul li:hover ul li {
 
 }
 
-.contact-message textarea{
+.contact-message textarea {
     resize: none;
     padding: 10px;
     outline: none;
@@ -369,7 +409,8 @@ ul.nav-ul li:hover ul li {
     margin-bottom: 20px;
 
 }
-.contact-message input[type="submit"]{
+
+.contact-message input[type="submit"] {
     padding: 5px 10px;
     border-radius: 5px;
     outline: none;
@@ -377,16 +418,18 @@ ul.nav-ul li:hover ul li {
     color: #fff;
     font-weight: 700;
     border: none;
-    
+
 }
-.contact-message input[type="submit"]:hover{
-    background:#fff ;
+
+.contact-message input[type="submit"]:hover {
+    background: #fff;
     color: #77acae;
 }
+
 /* ------------------book-online-------------------------- */
-.book-online{
+.book-online {
     width: 100%;
-    background: linear-gradient(to bottom right,rgba(0, 0, 0, 0.89),rgba(0, 0, 0, 0.438)),url(./image/panoramic-shot-of-smiling-physiotherapist-with-diagnosis-near-patient-in-hospital.jpeg);
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.438)), url(/image/panoramic-shot-of-smiling-physiotherapist-with-diagnosis-near-patient-in-hospital.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -394,14 +437,16 @@ ul.nav-ul li:hover ul li {
     padding-bottom: 100px;
 
 }
-.book-online-text{
+
+.book-online-text {
     width: 50%;
     margin: auto;
     text-align: center;
     color: #fff;
     line-height: 40px;
 }
-.book-online-text a{
+
+.book-online-text a {
     display: inline-block;
     text-decoration: none;
     padding: 5px 10px;
@@ -411,30 +456,35 @@ ul.nav-ul li:hover ul li {
     margin-top: 50px;
     color: #77acae;
 }
-.book-online-text a:hover{
+
+.book-online-text a:hover {
     background: #77acae;
     color: #fff;
 }
+
 /*---------------------- blog-post ---------------*/
-.blog-post{
+.blog-post {
     width: 100%;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.blog-post h3{
+
+.blog-post h3 {
     font-size: 24px;
     color: #77acae;
     font-weight: 600;
 
 }
-.blog-post h1{
-    
-    color:#005959;
+
+.blog-post h1 {
+
+    color: #005959;
     font-weight: 700;
     margin-bottom: 20px;
 }
-.blog-post-inner-container{
+
+.blog-post-inner-container {
     width: 80%;
     margin: auto;
     display: grid;
@@ -443,47 +493,54 @@ ul.nav-ul li:hover ul li {
     grid-row-gap: 45px;
 
 }
+
 .blog-post-div img {
     width: 170px;
     height: 140px;
     border-radius: 5px;
     object-fit: cover;
-  
-  
+
+
 
 }
-.blog-post-div{
+
+.blog-post-div {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
 }
-.blog-post-text{
+
+.blog-post-text {
 
     text-align: left;
-   
+
 }
-.blog-post-text h4{
+
+.blog-post-text h4 {
     margin-bottom: 20px;
 }
 
-.blog-post-text a{
+.blog-post-text a {
     display: block;
     margin-top: 20px;
     font-weight: 700;
     color: #005959;
 }
+
 /* -----------------footer ------------- */
-footer{
+footer {
     width: 100%;
     background: #005959;
     padding-top: 50px;
 }
-footer hr{
+
+footer hr {
     margin: auto;
     width: 90%;
     border: 1px solid #77acae;
 }
-.footer-inner-container{
+
+.footer-inner-container {
     width: 90%;
     margin: auto;
     display: grid;
@@ -491,36 +548,44 @@ footer hr{
     grid-column-gap: 20px;
 
 }
-.footer-inner-container h4{
+
+.footer-inner-container h4 {
     color: #fff;
 }
-.footer-inner-container li{
-list-style: none;
-line-height: 30px;
-color: #fff;
+
+.footer-inner-container li {
+    list-style: none;
+    line-height: 30px;
+    color: #fff;
 }
-.footer-inner-container li a{
+
+.footer-inner-container li a {
     text-decoration: none;
     color: #fff;
 }
-.contact-info{
+
+.contact-info {
     line-height: 25px;
 }
-.contact-info{
+
+.contact-info {
     color: #fff;
 }
-.contact-info a{
+
+.contact-info a {
     text-decoration: none;
     font-size: 12px;
     color: #fff;
 
 }
-.appointment{
+
+.appointment {
     color: #fff;
 }
-.appointment a{
+
+.appointment a {
     color: #fff;
-    text-decoration:none;
+    text-decoration: none;
     padding: 10px 20px;
     background: #77acae;
     margin-top: 20px;
@@ -528,11 +593,13 @@ color: #fff;
     margin-bottom: 20px;
     border-radius: 8px;
 }
-.appointment a:hover{
+
+.appointment a:hover {
     color: #77acae;
     background: #fff;
 }
-.copy-right{
+
+.copy-right {
     width: 90%;
     margin: auto;
     display: flex;
@@ -541,12 +608,14 @@ color: #fff;
 
 }
 
-.copy-right img{
-width: 100px;
+.copy-right img {
+    width: 100px;
 }
-.copy-right h6{
+
+.copy-right h6 {
     color: #fff;
 }
+
 /* -------------Moblie version css for index.html-------- */
 
 
@@ -555,127 +624,161 @@ width: 100px;
 ========================================================================== */
 
 
-/* <!---------------- about page baner---------------------------- --> */
-.about-page-baner{
-    width: 100%;
-    height: 300px;
-}
-.about-page-baner-innercontainer{
-    width: 100%;
-    height: 300px;
-    position: relative;
-  
-}
-.about-page-baner-innercontainer img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 0px -166px;
-    
-}
-.about-page-baner-innercontainer::before{
-    content: '';
-    text-align: center;
-    width: 100%;
-    height: 300px;
-    background: linear-gradient(150deg,rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.50));
-    position: absolute;
+/* <!---------------- about page banner---------------------------- --> */
 
+.about-page-banner {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(145deg, rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.65)), url(/image/senior-man-in-nursing-home-doing-physiotherapy.jpeg);
+    background-position-y: -247px;
+    background-position-x: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.about-page-baner-innercontainer h1{
-    position: absolute;
+
+.about-page-baner-innercontainer h1 {
     color: #fff;
-    top: 26%;
-    left: 43%;
-}
-/* <!-- --------------- why-choose-us---------> */
-.paddin-reduce{
-    padding-top: 0px;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 /* <!----------- Feel The Body Adjustment----------- --> */
 
-.feel{
+.feel {
     width: 100%;
-    height: 580px;
-    padding-bottom: 100px;
-    
+    padding-bottom: 30px;
 }
-/* .feel-innercontainer-text{
-    width: 100%;
-    height: 480px;
-    background:linear-gradient(145deg,rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),url(./image/physiotherapist-massaging-back-of-man-lying-on-massage-table-in-hospital.jpeg);
-    background-position: 0px 10px;
-} */
-.feel-innercontainer img{
-    width: 100%;
 
-    object-fit: cover;
-    object-position: 0px -200px;
-}
-.feel-innercontainer{
+.feel-innercontainer {
     width: 100%;
-    position: relative;
-}
-.feel-innercontainer::before{
-    content: '';
-    width: 100%;
-    height: 480px;
-    background: linear-gradient(145deg,rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55));
-    position: absolute;
-}
-.feel-innercontainer-text{
-    color: #fff;
-    width: 50%;
-    left: 29%;
-    position: absolute;
-    top: 83px;
-    text-align: center;
-    line-height: 36px;
-}
-.professional-staff{
-    width: 60%;
-    background: #fff;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    top: 382px;
-    left: 20%;
-    position: absolute;
+    height: 60vh;
+    background: linear-gradient(145deg, rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.65)), url(/image/physiotherapist-massaging-back-of-man-lying-on-massage-table-in-hospital.jpeg);
+    background-position: center;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 3px 3px 10px rgb(128 128 128 / 49%);
+    justify-content: center;
 }
-.professional-staff i{
+
+.feel-innercontainer>div {
+    width: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.professional-staff {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    top: -52px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px grey;
+}
+
+.professional-staff>div {
+    text-align: center;
+}
+
+.professional-staff>div>i {
     font-size: 30px;
     color: #77acae;
-    margin-bottom: 10px;
 }
-.professional-staff h4{
-    color: #005959;
+
+.professional-staff>div>h4 {
     font-weight: 800;
-    
+    color: #005959;
+    font-size: 22px;
 }
+
+
+
 /* <!----------------------- Our Therapist------------------- --> */
-
-@media (max-width:425px) {
-   
-.nav-div{
-    display: none;
+.our-therapist {
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    line-height: 30px;
 }
-.phone-number .link-2{
+.our-therapist>h3{
+    color: #77acae;
+}
+.our-therapist>h1{
+    color: #005959;
+}
+.our-therapist>p{
+    margin-bottom: 30px;
+}
+
+
+.our-therapist-img {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.our-therapist-img>div {
+    flex-basis: 30%;
+    height: 350px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-therapist-img>div>div {
+    padding: 10px;
+    background: #fff;
+    width: 80%;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+
+
+
+}
+
+.our-therapist-img>div>div>h2 {
+    color: #005959;
+    font-weight: 700;
+
+}
+
+.our-therapist-img>div:first-child {
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(/image/0e298b2da1c0dc758c15423ca306dbff.jpeg);
+    
+    background-size: cover;
+}
+
+.our-therapist-img>div:nth-child(2) {
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(/image/9c1aadc4a93d02995d92fe9725330e04.jpeg);
+    background-size: cover;
+}
+
+.our-therapist-img>div:last-child {
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(/image/5266fc282326622258669a735d9097d6.jpeg);
+    background-size: cover;
+}
+
+.our-therapist-img>div>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.social-logo {
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-logo a {
+    padding: 10px;
+    border-radius: 50%;
+    background: #fff;
     display: block;
+    color: #77acae;
 }
-.phone-number .link-1{
-    display: none;
-}
-.fa-bars{
-    display: block;
-}
-
-}
-
