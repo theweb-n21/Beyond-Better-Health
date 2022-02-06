@@ -1,6 +1,9 @@
 /* mobile css for  */
 @media (max-width: 500px) {
-    .container>i {
+    /* .container{
+        position: relative;
+    } */
+    .fa-bars {
         display: block;
     }
 
@@ -22,8 +25,31 @@
         height: 80px;
     }
 
-    ul.nav-ul {
-        display: none;
+    .nav-ul {
+        position: absolute;
+        left: 0px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        top: 84px;
+        background: #77acae;
+        width: 0px;
+        overflow: hidden;
+        transition-property: width;
+        transition-duration: 1s;
+    }
+    
+    .nav-ul li a{
+        color: #fff;
+        font-weight: 800;
+        font-size: 25px;
+
+    }
+    
+    
+     .open{
+        width: 100%;
     }
 
     .about-us-container {
