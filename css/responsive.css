@@ -283,7 +283,10 @@
         background-size: cover;
         background-position: center;
     }
-    
+    .about-us {
+        width: 80%;
+        margin: auto;
+    }
     footer {
        
         margin-top: 100px;

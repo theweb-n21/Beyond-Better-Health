@@ -292,7 +292,7 @@ nav {
     color: #77acae;
     font-size: 24px;
     font-weight: 600;
-
+    margin-top: 30px;
 }
 
 .why-choose-us-tex h1 {
@@ -781,4 +781,24 @@ footer hr {
     background: #fff;
     display: block;
     color: #77acae;
+}
+
+
+/* ===============================Services page css=====================
+========================================================================== */
+
+/* <!--  --------------service banner --> */
+
+.service-banner {
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)), url(/image/c7a17f0f132115f562e9896169f0a8fd.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-banner h1{
+    color: #fff;
 }
