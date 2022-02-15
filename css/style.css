@@ -32,6 +32,7 @@ nav {
     display: none;
     cursor: pointer;
 }
+
 .logo img {
     width: 100px;
     height: 100px;
@@ -127,20 +128,42 @@ nav {
 /* ---------------main-------- */
 .banner {
     width: 100%;
-
-    padding-right: 2%;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(12, 12, 12, 0.5));
+    display: grid;
+    place-items: center;
+    /* padding-right: 2%; */
 
 }
 
-.banner img {
+.banner h1 {
+    color:#fff;
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.banner-video {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* .banner img {
     width: 100%;
-}
+} */
 
 /* ----------------about-us--------- */
 .about-us-container {
     width: 100%;
     padding-bottom: 100px;
-    padding-top: 100px;
+    padding-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 25px;
@@ -704,13 +727,16 @@ footer hr {
     text-align: center;
     line-height: 30px;
 }
-.our-therapist>h3{
+
+.our-therapist>h3 {
     color: #77acae;
 }
-.our-therapist>h1{
+
+.our-therapist>h1 {
     color: #005959;
 }
-.our-therapist>p{
+
+.our-therapist>p {
     margin-bottom: 30px;
 }
 
@@ -752,7 +778,7 @@ footer hr {
 
 .our-therapist-img>div:first-child {
     background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(/image/0e298b2da1c0dc758c15423ca306dbff.jpeg);
-    
+
     background-size: cover;
 }
 
@@ -775,6 +801,7 @@ footer hr {
     display: flex;
     justify-content: space-evenly;
 }
+
 .social-logo a {
     padding: 10px;
     border-radius: 50%;
@@ -799,6 +826,7 @@ footer hr {
     justify-content: center;
     align-items: center;
 }
-.service-banner h1{
+
+.service-banner h1 {
     color: #fff;
 }
